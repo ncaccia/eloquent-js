@@ -1,3 +1,10 @@
+
+// CHAP 02 - PROGRAM STRUCTURE
+
+// IMPORTANTE: Loops run while the condition is TRUE, not FALSE.
+// Condition is TRUE → loop body executes
+// Condition is FALSE → loop stops (or never starts)
+
 // let iAm = "nico";
 // let nothing
 // console.log("log: " + iAm);
@@ -148,12 +155,16 @@ for each row: => 1 to 8
 */
 
 
-let board = "", size = 20;
-for (let row = 0; row < size; row++) {
-    for (let col = 0; col < size; col++) {
-        board += (row + col) % 2 === 0 ? " " : "#";
-    }
-    board += "\n";
-}
-console.log(board)
+// // Elegant solution - 2d loop - scalable board
+// let board = "", size = 20;
+// for (let row = 0; row < size; row++) {
+//     for (let col = 0; col < size; col++) {
+//         board += (row + col) % 2 === 0 ? " " : "#";
+//     }
+//     board += "\n";
+// }
+// console.log(board)
+
+
+
 
