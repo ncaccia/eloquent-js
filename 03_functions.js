@@ -31,7 +31,7 @@ console.log(wrap2());
 // ###################################################################
 
 // Recursion == A function that calls itself 
-// Heuristic for solving problems recursively: "Does this problem contain smaller versions of itself?"
+// Recursion Heuristic: "Does this problem contain smaller versions of itself?"
 
 
 function power(base, exponent) {
@@ -66,7 +66,7 @@ function findSolution(target) {
 
 console.log(findSolution(13));
 
-// Rewritten for debuggin and understanding the flow:
+// Rewritten for debugging and understanding the flow:
 
 function findSolution(target) {
     function find(current, history, depth) {
@@ -151,6 +151,7 @@ console.log(findSolution(13));
 // MARK: Functions and side effects
 // ##################################################################
 
+// Three types of functions:
 // A) Functions that are called for their side effects (e.g. console.log)
 // B) Functions that are called for their return value (e.g. Math.max) --> easier to combine in new ways.
 // C) Pure function: value-producing function that has no side effects and doesn’t rely on side effects from other code.

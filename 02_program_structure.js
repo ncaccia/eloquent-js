@@ -1,7 +1,7 @@
 
 // CHAP 02 - PROGRAM STRUCTURE
 
-// IMPORTANTE: Loops run while the condition is TRUE, not FALSE.
+// ⚠️IMPORTANT: Loops run while the condition is TRUE, not FALSE.
 // Condition is TRUE → loop body executes
 // Condition is FALSE → loop stops (or never starts)
 
